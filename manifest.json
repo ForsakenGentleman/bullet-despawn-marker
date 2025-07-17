@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Bullet Despawn Marker",
+  "version": "1.0",
+  "description": "Marks the position where the most recent normal bullet despawned.",
+  "content_scripts": [
+    {
+      "matches": ["https://*.tanktrouble.com/*"],
+      "js": ["main.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["inject.js"],
+      "matches": ["https://*.tanktrouble.com/*"]
+    }
+  ],
+  "icons": {
+    "128": "icon.png"
+  }
+}
