@@ -8,7 +8,8 @@ Download the extension (.zip): [**Download**](https://github.com/ForsakenGentlem
 Userscript link: [**Here**](https://greasyfork.org/en/scripts/542851-bullet-despawn-marker/code)
 
 Tutorial on how to install the extension for Chrome and Firefox: [**Watch this**](https://www.youtube.com/watch?v=dhaGRJvJAII)
-
 Tutorial on how to install the extension for Edge and Opera: [**Watch this**](https://www.youtube.com/watch?v=qvmFJ5ZkryE)
 
 *(Golf icons created by Freepik - Flaticon: [**Flaticon**](https://www.flaticon.com/free-icons/golf))*
+
+![Screenshot](https://i.imgur.com/NBAPRqV.webp)

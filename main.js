@@ -1,2 +1,1 @@
-const runtime="undefined"!=typeof browser?browser.runtime:"undefined"!=typeof chrome?chrome.runtime:null,url=runtime.getURL("inject.js");if(runtime?.getURL){const e=document.createElement("script");e.src=runtime.getURL("inject.js"),document.documentElement.appendChild(e),e.remove()}else console.error("[Bullet Despawn Marker] Failed to load inject.js");
-//Golf icons created by Freepik - Flaticon (https://www.flaticon.com/free-icons/golf)
+const runtime="undefined"!=typeof browser?browser.runtime:"undefined"!=typeof chrome?chrome.runtime:null;if(runtime?.getURL){const e=runtime.getURL("inject.js"),n=document.createElement("script");n.src=e,document.documentElement.appendChild(n),n.remove()}else console.error("[Bullet Despawn Marker] Failed to load inject.js");
